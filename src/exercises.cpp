@@ -17,7 +17,6 @@ void exercise_1(string s1, string s2, string s3) {
   } else {
     cout << s3;
   }
-  return 0;
 }
 
  
