@@ -35,16 +35,11 @@ void exercise_5(char character) {
 }
 
 void exercise_6(int number) {
-  // TODO: YOUR CODE HERE
-  int option;
+  // TODO: YOUR CODE HERE 
     
-  cout <<"Ingrese un numero de 1 al 7 "<<endl;
-    
-  cin>>option; 
-    
-  if (1 <= option && option <=7) {
+  if (1 <= number && number <=7) {
        
-    switch(option) {
+    switch(number) {
     
         case 1:
             cout << "Lunes"; 
