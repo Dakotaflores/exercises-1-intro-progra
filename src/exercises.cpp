@@ -43,7 +43,7 @@ void exercise_5(char character) {
 
     cin >> option;
   
-    if (1 == option && option >= 7) {
+    if (1 <= option && option <= 7) {
 
 
      switch(option) {
