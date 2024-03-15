@@ -64,7 +64,7 @@ void exercise_6(int number) {
             break;
     }
  } else {
-   cout <<"Invalid input";
+   cout <<"Invalid input\n";
  }
 }
 
