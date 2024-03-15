@@ -35,6 +35,40 @@ void exercise_4(double n, double a, double b, double x, double y) {
 
 void exercise_5(char character) {
   // TODO: YOUR CODE HERE
+  int main {
+    
+    int option;
+
+    cout << "Ingrese un numero del 1 al 7: " << endl;
+
+    cin >> option;
+
+    switch(option) {
+      
+      case 1:
+        cout << "Lunes";
+        break;
+      case 2:
+        cout << "Martes";
+        break;
+      case 3;
+        cout << "Miercoles";
+        break;
+      case 4:
+        cout << "Jueves";
+        break;
+      case 5:
+        cout << "Viernes";
+        break;
+      case 6:
+        cout << "Sabado";
+        break;
+      case 7;
+        cout << "Domingo";
+        break;
+
+    }
+  } 
 }
 
 void exercise_6(int number) {
