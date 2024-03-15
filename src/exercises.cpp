@@ -51,7 +51,7 @@ void exercise_5(char character) {
       case 2:
         cout << "Martes";
         break;
-      case 3;
+      case 3:
         cout << "Miercoles";
         break;
       case 4:
