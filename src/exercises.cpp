@@ -42,29 +42,29 @@ void exercise_6(int number) {
     switch(number) {
     
         case 1:
-            cout << "Lunes"; 
+            cout << "Monday\n"; 
             break;
         case 2:
-            cout << "Martes"; 
+            cout << "Thursday\n"; 
             break;
         case 3:
-            cout << "Miercoles"; 
+            cout << "Wednesday\n"; 
             break;
         case 4:
-            cout << "Jueves"; 
+            cout << "Thursday\n"; 
             break;
         case 5:
-            cout << "Vienes "; 
+            cout << "Friday\n"; 
             break;
         case 6:
-            cout << "Sabado"; 
+            cout << "Saturday\n"; 
             break;
         case 7:
-            cout << "Domingo"; 
+            cout << "Sunday\n"; 
             break;
     }
  } else {
-   cout <<"invalid input";
+   cout <<"Invalid input";
  }
 }
 
