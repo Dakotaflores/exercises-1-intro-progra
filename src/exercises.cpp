@@ -42,8 +42,11 @@ void exercise_5(char character) {
     cout << "Ingrese un numero del 1 al 7: " << endl;
 
     cin >> option;
+  
+    if (1 == option && option >= 7) {
 
-    switch(option) {
+
+     switch(option) {
       
       case 1:
         cout << "Lunes";
@@ -68,7 +71,12 @@ void exercise_5(char character) {
         break;
 
     }
-  } 
+  } else {
+    cout << "Numero invalido";
+  }
+}
+ 
+ return 0;
 }
 
 void exercise_6(int number) {
