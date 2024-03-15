@@ -6,7 +6,6 @@ using namespace std;
 
 void exercise_1(string s1, string s2, string s3) {
   // TODO: YOUR CODE HERE  //milk milkshake month 
-  string s1, s2, s3;
   s1 = "milk"
   s2 = "milkshake"
   s3 = "month"
