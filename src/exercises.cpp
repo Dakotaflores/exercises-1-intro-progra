@@ -32,6 +32,10 @@ void exercise_4(double n, double a, double b, double x, double y) {
 void exercise_5(char character) {
   // TODO: YOUR CODE HERE
     
+}
+
+void exercise_6(int number) {
+  // TODO: YOUR CODE HERE
   int option;
     
   cout <<"Ingrese un numero de 1 al 7 "<<endl;
@@ -67,10 +71,6 @@ void exercise_5(char character) {
  } else {
    cout <<"invalid input";
  }
-}
-
-void exercise_6(int number) {
-  // TODO: YOUR CODE HERE
 }
 
 void exercise_7(double r) {
