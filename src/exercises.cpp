@@ -223,8 +223,6 @@ int exercise_10(int a, int b) {
 
 string exercise_11(int number) {
   // TODO: YOUR CODE HERE
-  
-  cin << number << endl;
 
   if (number != 11235813) {
     cout << "Esto no es de Fibonacci" << endl;
@@ -233,7 +231,6 @@ string exercise_11(int number) {
     cout << "Se encontro a Fibonacci" << endl;
   }
 
-  return "";
 }
 
 void exercise_12(string color1, int numb1,
