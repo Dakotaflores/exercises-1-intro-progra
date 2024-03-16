@@ -82,11 +82,12 @@ void exercise_4(double n, double a, double b, double x, double y) {
 
 void exercise_5(char character) {
   // TODO: YOUR CODE HERE
+
   cout << "Ingresa una letra: " << endl;
 
   cin >> character;
 
-  int ASCII + (int) letter
+  int ASCII = (int) character
 
   if (65 <= ASCII && ASCII < 96) {
     cout << "upper-case alphabet";
