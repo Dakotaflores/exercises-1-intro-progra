@@ -199,6 +199,9 @@ void exercise_8(long int seconds) {
     cout << hour << ":" << minutes << ":" << seconds << endl;
 
 
+  } else if (seconds == 0) {
+    cout << "00:00:00" << endl;
+
   } else if (seconds < 0) {
     cout << "Error: Input seconds cannot be negative." << endl;
 
