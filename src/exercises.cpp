@@ -149,7 +149,7 @@ void exercise_7(double r) {
       cout << r << endl;
   
     } else {
-      cout << "Error: Radius cannot be negative"
+      cout << "Error: Radius cannot be negative" << endl;
     }
 }  
 
