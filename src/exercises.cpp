@@ -170,9 +170,9 @@ void exercise_8(long int seconds) {
         minutes = new_seconds / 60;
         seconds = new_seconds % 60;
     }
-    else
+    else if 
     {
-        cout << "Error: Input seconds cannot be negative." << endl;
+        cout << "Error: Input seconds cannot be negative. " << endl;
        // Exiting the program with an error code
     }
 
