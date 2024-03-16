@@ -173,7 +173,7 @@ void exercise_8(long int seconds) {
     }
     else if (seconds <= 3600)
     {
-        cout << "Error: Input seconds cannot be negative." << endl;
+        cout << "Error: Input seconds cannot be negative. " << endl;
      // Exiting the program with an error code
     }
 
