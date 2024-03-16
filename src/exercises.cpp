@@ -180,7 +180,9 @@ void exercise_8(long int seconds) {
     // Output formatting
     cout << ((hour < 10) ? "0" : "") << hour << ":"
          << ((minutes < 10) ? "0" : "") << minutes << ":"
-         << ((seconds < 10) ? "0" : "") << seconds << endl;  
+         << ((seconds < 10) ? "0" : "") << seconds << endl; 
+
+  return "";
 }
 
 string exercise_9(string s1, string s2, string s3, string s4, string s5) {
@@ -202,6 +204,7 @@ string exercise_11(int number) {
   } else if (number == 11235813) {
     cout << "Se encontro a Fibonacci " << endl;
   }
+  return "";
 }
 
 void exercise_12(string color1, int numb1,
