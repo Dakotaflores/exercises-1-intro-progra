@@ -68,9 +68,9 @@ void exercise_5(char character) {
 void exercise_6(int number) {
   // TODO: YOUR CODE HERE 
     
- if (1 <= number && number <=7) {
+if (1 <= number && number <=7) {
        
-    switch(number) {
+  switch(number) {
     
         case 1:
             cout << "Monday\n"; 
