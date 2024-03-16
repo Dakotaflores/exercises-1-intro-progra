@@ -102,18 +102,14 @@ void exercise_7(double r) {
 const float pi = 3.14;
 const int directions = 4; 
 
-cout << "ingrese el radio " << endl ;
-cin >>  radio; 
-
     if(radio > 0 ) {
-        float result = directions * pi * radio * radio;
-
+      float result = directions * pi * radio * radio;
       cout << result;
     
     }else {
       cout << " Error: Radius cannot be negative";
     }
-    
+}   
 
 void exercise_8(long int seconds) {
   // TODO: YOUR CODE HERE
