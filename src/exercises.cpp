@@ -263,7 +263,7 @@ string exercise_13(int age, int years_of_experience) {
 
   } else {
     title = "Coordinador de proyecto";
-}
+  }
 
 // Imprimir el título del puesto para el que es elegible el candidato
   cout << "El título del puesto para el que es elegible el candidato es: " << title << endl;
@@ -279,7 +279,7 @@ string exercise_14(int number_of_docs) {
     cout << "Se encontro un documento" << endl;
   } else {
     cout << num_documents << " documentos encontrados" << endl;
-vv}
+  }
 }
 
 void exercise_15(int a, int b, int c) {
