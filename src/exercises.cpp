@@ -193,7 +193,7 @@ string exercise_9(string s1, string s2, string s3, string s4, string s5) {
     } else {
       cout << string s1[0] << sting s2[0] << string s3[0] << string s4[0] << string s5[0] << endl << "Aun sin suerte" << endl;
     }*/
-    
+
 }
 
 int exercise_10(int a, int b) {
@@ -218,6 +218,7 @@ int exercise_10(int a, int b) {
 
     // Calcular el producto de la suma por el número de dígitos
     int result = sum * numDigits;
+    cout << result << endl;
 
 }
 
@@ -230,7 +231,8 @@ string exercise_11(int number) {
   } else if (number == 11235813) {
     cout << "Se encontro a Fibonacci " << endl;
   }
-
+  
+ return "";
 }
 
 void exercise_12(string color1, int numb1,
