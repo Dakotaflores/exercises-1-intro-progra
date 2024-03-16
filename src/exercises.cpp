@@ -154,7 +154,7 @@ void exercise_7(double r) {
 void exercise_8(long int seconds) {
   // TODO: YOUR CODE HERE
 
-  /*long int hour;
+ /*long int hour;
   long int minutes;
   long int new_seconds;
 
