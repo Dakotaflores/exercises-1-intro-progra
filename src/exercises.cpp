@@ -6,13 +6,13 @@ using namespace std;
 
 void exercise_1(string s1, string s2, string s3) { 
 
-  if (s1 < s2 && s1 < s3) {
+/*  if (s1 < s2 && s1 < s3) {
     cout << s1 ;
   } else if(s2 < s1 && s2 < s3) {
     cout << s2;
   } else {
     cout << s3;
-  }
+  }*/
 }
 
 
@@ -68,7 +68,7 @@ void exercise_5(char character) {
 void exercise_6(int number) {
   // TODO: YOUR CODE HERE 
     
-/*  if (1 <= number && number <=7) {
+ if (1 <= number && number <=7) {
        
     switch(number) {
     
@@ -96,7 +96,7 @@ void exercise_6(int number) {
     }
  } else {
    cout <<"Invalid input\n";
- }*/
+ }
 }
 
 void exercise_7(double r) {
