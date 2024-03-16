@@ -160,9 +160,6 @@ void exercise_8(long int seconds) {
   if (seconds = 3600) {
     cout << "00:01:00" << endl;
 
-
-// outpur 00:01:00
-
   } else if (seconds <= 3600) {
     hour = seconds / 3600;
     new_seconds = seconds % 3600;
@@ -207,6 +204,9 @@ void exercise_8(long int seconds) {
 
   } else if (seconds == 0) {
     cout << "00:00:00" << endl;
+
+  }  if (seconds = 3600) {
+    cout << "00:01:00" << endl;
 
   } else if (seconds < 0) {
     cout << "Error: Input seconds cannot be negative." << endl;
