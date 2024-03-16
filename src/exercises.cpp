@@ -182,7 +182,6 @@ void exercise_8(long int seconds) {
          << ((minutes < 10) ? "0" : "") << minutes << ":"
          << ((seconds < 10) ? "0" : "") << seconds << endl; 
 
-  return "";
 }
 
 string exercise_9(string s1, string s2, string s3, string s4, string s5) {
@@ -199,10 +198,10 @@ string exercise_9(string s1, string s2, string s3, string s4, string s5) {
         cout << "Hemos encontrado algo!" << endl;
     } else {
         cout << "Aun sin suerte" << endl;
-    }*/
+    }
 
 
-  return "";
+  return "";*/
 }
 
 int exercise_10(int a, int b) {
