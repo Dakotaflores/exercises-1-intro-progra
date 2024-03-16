@@ -83,8 +83,6 @@ void exercise_4(double n, double a, double b, double x, double y) {
 void exercise_5(char character) {
   // TODO: YOUR CODE HERE
 
-  cin >> character;
-
   int ASCII = (int) character
 
   if (65 <= ASCII && ASCII < 96) {
