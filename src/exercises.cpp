@@ -299,7 +299,6 @@ void exercise_15(int a, int b, int c) {
 
 void exercise_16(int debut, int fin) {
   // TODO: YOUR CODE HERE
-
 /*int total_hours;
 int total_cost;
 
