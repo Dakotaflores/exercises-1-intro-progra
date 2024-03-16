@@ -101,8 +101,6 @@ void exercise_7(double r) {
 
 const float pi = 3.14;
 const int directions = 4; 
-   
-float radio; 
 
 cout << "ingrese el radio " << endl ;
 cin >>  radio; 
