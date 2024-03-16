@@ -157,7 +157,7 @@ void exercise_8(long int seconds) {
   long int minutes;
   long int new_seconds;
 
-  if (seconds > 3600 && hour < 10 && seconds >= 10 && minutes < 10) {
+  if (seconds = 3600 && hour < 10 && seconds >= 10 && minutes < 10) {
     hour = seconds / 3600;
     new_seconds = seconds % 3600;
     minutes = new_seconds / 60;
