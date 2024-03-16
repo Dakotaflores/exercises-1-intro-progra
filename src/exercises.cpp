@@ -204,7 +204,6 @@ int exercise_10(int a, int b) {
         cout << 0 << endl;
 
     }
-
     // Calcular la suma de los dos enteros
     int sum = a + b;
 
@@ -231,8 +230,8 @@ string exercise_11(int number) {
   } else if (number == 11235813) {
     cout << "Se encontro a Fibonacci " << endl;
   }
-  
- return "";
+
+ return "1";
 }
 
 void exercise_12(string color1, int numb1,
