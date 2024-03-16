@@ -111,8 +111,8 @@ const int directions = 4;
     
     }else {
       cout << " Error: Radius cannot be negative";
-    }
-}*/  
+    }*/
+}  
 
 void exercise_8(long int seconds) {
   // TODO: YOUR CODE HERE
