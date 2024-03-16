@@ -304,21 +304,21 @@ int total_hours;
 int total_cost;
 
 // Verificar si las horas están en el rango válido
-if (start_hour < 0 || start_hour > 24 || end_hour < 0 || end_hour > 24) {
+if (debut < 0 || debut > 24 || fin < 0 ||fin > 24) {
     cout << "Las horas deben estar entre 0 y 24!" << endl;
 }
 
 // Verificar si la hora de inicio es igual a la hora de fin
-if (start_hour == end_hour) {
+if (debut == fin) {
     cout << "Que extraño, no has alquilado tu bicicleta por mucho tiempo!" << endl;
 }
 
 // Verificar si la hora de inicio es menor que la hora de fin
-if (start_hour > end_hour) {
+if (debut > fin) {
     cout << "Que extraño, el inicio del alquiler es después del final..." << endl;
 
 // Calcular el costo del alquiler
-for (int hour = start_hour; hour < end_hour; ++hour) {
+for (int hour = debut; hour < fin; ++hour) {
     if ((hour >= 0 && hour < 7) || (hour >= 17 && hour < 24)) {
         total_cost += 1;
     } else {
