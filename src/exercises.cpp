@@ -187,21 +187,17 @@ void exercise_8(long int seconds) {
 string exercise_9(string s1, string s2, string s3, string s4, string s5) {
   // TODO: YOUR CODE HERE
 
-   /* cout << "Ingrese cinco palabras separadas por un espacio: ";
-    cin >> word1 >> word2 >> word3 >> word4 >> word5;
-
     // Imprimir el primer caracter de cada palabra
-    cout << "Primer caracter de cada palabra: " << word1[0] << " " << word2[0] << " " << word3[0] << " " << word4[0] << " " << word5[0] << endl;
+    cout << "Primer caracter de cada palabra: " << string s1[0] << " " << string s2[0] << " " << string s3[0] << " " << strings 4[0] << " " << string s5[0] << endl;
 
     // Verificar si el primer caracter de la primera palabra y el primer caracter de la última palabra son iguales
-    if (word1[0] == word5[0]) {
+    if (string s1[0] == string s5[0]) {
         cout << "Hemos encontrado algo!" << endl;
     } else {
         cout << "Aun sin suerte" << endl;
     }
 
-
-  return "";*/
+  return "";
 }
 
 int exercise_10(int a, int b) {
