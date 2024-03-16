@@ -99,9 +99,6 @@ void exercise_6(int number) {
 void exercise_7(double r) {
   // TODO: YOUR CODE HERE
 
-const double pi = 3.14;
-const int directions = 4;  
-
     if(r > 0 ) {
         double result = directions * pi * radio * r;
     
