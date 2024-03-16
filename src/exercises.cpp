@@ -174,7 +174,6 @@ void exercise_8(long int seconds) {
     else if (seconds <= 3600)
     {
         cout << "Error: Input seconds cannot be negative." << endl;
-        return 1;
      // Exiting the program with an error code
     }
 
@@ -183,11 +182,25 @@ void exercise_8(long int seconds) {
          << ((minutes < 10) ? "0" : "") << minutes << ":"
          << ((seconds < 10) ? "0" : "") << seconds << endl; 
 
-  return "";
+  return "1";
 }
 
 string exercise_9(string s1, string s2, string s3, string s4, string s5) {
   // TODO: YOUR CODE HERE
+
+   /* cout << "Ingrese cinco palabras separadas por un espacio: ";
+    cin >> word1 >> word2 >> word3 >> word4 >> word5;
+
+    // Imprimir el primer caracter de cada palabra
+    cout << "Primer caracter de cada palabra: " << word1[0] << " " << word2[0] << " " << word3[0] << " " << word4[0] << " " << word5[0] << endl;
+
+    // Verificar si el primer caracter de la primera palabra y el primer caracter de la última palabra son iguales
+    if (word1[0] == word5[0]) {
+        cout << "Hemos encontrado algo!" << endl;
+    } else {
+        cout << "Aun sin suerte" << endl;
+    }*/
+
 
   return "";
 }
