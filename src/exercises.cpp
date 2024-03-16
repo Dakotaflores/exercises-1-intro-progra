@@ -231,7 +231,7 @@ string exercise_11(int number) {
     cout << "Se encontro a Fibonacci " << endl;
   }
 
- return "1";
+ return "";
 }
 
 void exercise_12(string color1, int numb1,
@@ -239,6 +239,14 @@ void exercise_12(string color1, int numb1,
                  string color3, int numb3,
                  string color4, int numb4) {
   // TODO: YOUR CODE HERE
+  bool match1 = (color1 == color4 || color4 == "?") && (numb1 == numb4 || numb4 == -1)
+  bool match2 = (color2 == color4 || color4 == "?") && (numb1 == numb4 || numb4 == -1)
+  bool match3 = (color1 == color4 || color4 == "?") && (numb1 == numb4 || numb4 == -1)
+
+  if (match1) cout << "1" << endl;
+  if (match1) cout << "2" << endl;
+  if (match1) cout << "1" << endl;
+
 }
 
 string exercise_13(int age, int years_of_experience) {
