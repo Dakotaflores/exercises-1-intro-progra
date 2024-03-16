@@ -154,7 +154,7 @@ void exercise_7(double r) {
 void exercise_8(long int seconds) {
   // TODO: YOUR CODE HERE
 
-  /*long int hour;
+  long int hour;
   long int minutes;
   long int new_seconds;
 
@@ -175,12 +175,11 @@ void exercise_8(long int seconds) {
     {
         cout << "Error: Input seconds cannot be negative." << endl;
        // Exiting the program with an error code
-    } else;
-
+    }
     // Output formatting
     cout << ((hour < 10) ? "0" : "") << hour << ":"
          << ((minutes < 10) ? "0" : "") << minutes << ":"
-         << ((seconds < 10) ? "0" : "") << seconds << endl; */
+         << ((seconds < 10) ? "0" : "") << seconds; 
 }
 
 string exercise_9(string s1, string s2, string s3, string s4, string s5) {
