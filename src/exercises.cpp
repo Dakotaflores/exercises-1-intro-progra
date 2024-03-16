@@ -37,7 +37,8 @@ void exercise_2(double A, double B, double C) {
 
   } else if (datos_raiz < 0); {
     cout << " " << endl;
-  }
+
+  } else;
 }
 
 void exercise_3(int a, int b) {
