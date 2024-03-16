@@ -64,7 +64,7 @@ void exercise_4(double n, double a, double b, double x, double y) {
     double cost_normal;
     double desc_especial;
 
-    if (n > a && n < b); {
+    if (n > a && n < b) {
       desc = n * x / 100;
       cost_total = n - desc;
     cout << cost_total << enld;
