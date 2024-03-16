@@ -18,7 +18,7 @@ void exercise_1(string s1, string s2, string s3) {
 
 void exercise_2(double A, double B, double C) {
   // TODO: YOUR CODE HERE
-
+/*
   double D = B * B - 4 * A * C ;
     if (D > 0 && A != 0)
     {
@@ -44,15 +44,15 @@ void exercise_2(double A, double B, double C) {
     else
     {
           cout<<"";
-    }
+    }*/
 }
 
 void exercise_3(int a, int b) {
   // TODO: YOUR CODE HERE
 
-if (b == 0);
+  if (b == 0);
         cout << "Impossible" << endl;
-    else 
+  else 
         cout << a / b << endl;
 }
 }
