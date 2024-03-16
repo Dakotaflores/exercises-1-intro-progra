@@ -58,7 +58,28 @@ void exercise_3(int a, int b) {
 
 void exercise_4(double n, double a, double b, double x, double y) {
   // TODO: YOUR CODE HERE
-  
+
+  using namespace std; 
+
+    double desc;
+    double cost_total;
+    double cost_normal;
+    double desc_especial;
+
+    if (n > a && n < b); {
+      desc = n * x / 100;
+      cost_total = n - desc;
+    cout << cost_total << enld;
+
+    } else if (n > b && n > a) {
+      desc = n * y / 100;
+      cost_total = n - desc;
+    cout << cost_total << endl;
+
+    } else if (n < a && n < b) {
+    cout << n << endl;
+
+    } else;
 }
 
 void exercise_5(char character) {
