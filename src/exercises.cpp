@@ -287,7 +287,7 @@ string exercise_14(int number_of_docs) {
 
 void exercise_15(int a, int b, int c) {
   // TODO: YOUR CODE HERE
-  
+
   int temp = a;
   a = b;
   b = c;
@@ -299,5 +299,48 @@ void exercise_15(int a, int b, int c) {
 
 void exercise_16(int debut, int fin) {
   // TODO: YOUR CODE HERE
+
+int total_hours = 0;
+int total_cost = 0;
+
+// Leer las horas de inicio y fin del alquiler
+cout << "Ingrese la hora de inicio del alquiler: ";
+cin >> debut;
+cout << "Ingrese la hora de fin del alquiler: ";
+cin >> fin;
+
+// Verificar si las horas están en el rango válido
+if (start_hour < 0 || start_hour > 24 || end_hour < 0 || end_hour > 24); {
+    cout << "Las horas deben estar entre 0 y 24!" << endl;
+}
+
+// Verificar si la hora de inicio es igual a la hora de fin
+if (start_hour == end_hour) {
+    cout << "Que extraño, no has alquilado tu bicicleta por mucho tiempo!" << endl;
+}
+
+// Verificar si la hora de inicio es menor que la hora de fin
+if (start_hour > end_hour) {
+    cout << "Que extraño, el inicio del alquiler es después del final..." << endl;
+
+// Calcular el costo del alquiler
+for (int hour = start_hour; hour < end_hour; ++hour) {
+    if ((hour >= 0 && hour < 7) || (hour >= 17 && hour < 24)) {
+        total_cost += 1;
+    } else {
+        total_cost += 2;
+    }
+    total_hours++;
+}
+
+// Mostrar el detalle del alquiler y el monto total a pagar
+cout << "Has alquilado una bicicleta por" << endl;
+if (total_hours > 0 && total_hours <= 7) {
+    cout << total_hours << " hora(s) con el tarifario de 1 boliviano(s)" << endl;
+} else {
+    cout << "7 hora(s) con el tarifario de 1 boliviano(s)" << endl;
+    cout << total_hours - 7 << " hora(s) con el tarifario de 2 boliviano(s)" << endl;
+}
+cout << "El monto total a pagar es de " << total_cost << " boliviano(s)." << endl;
 
 }
