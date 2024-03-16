@@ -102,8 +102,6 @@ void exercise_7(double r) {
 
 const float pi = 3.14;
 const int directions = 4; 
-
-int main() {
    
 float radio; 
 
@@ -120,7 +118,6 @@ cin >>  radio;
         cout << "Error: Radius cannot be negative";
     }
     return 0;
-}
 }
 
 void exercise_8(long int seconds) {
