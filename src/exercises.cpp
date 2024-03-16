@@ -228,7 +228,7 @@ string exercise_11(int number) {
     cout << "Esto no es de Fibonacci" << endl;
 
   } else if (number == 11235813) {
-    cout << "Se encontro Fibonacci" << endl;
+    cout << "Se encontro a Fibonacci" << endl;
   }
 
   return "";
