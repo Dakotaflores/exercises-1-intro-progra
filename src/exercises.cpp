@@ -139,8 +139,9 @@ void exercise_7(double r) {
 
   double pi = 3.14;
   double directions = 4; 
+  double result;
 
-    if(r> 0 ) {
+    if(r > 0 ) {
       result = directions * pi * radio * r;
       cout << result << endl;
     
