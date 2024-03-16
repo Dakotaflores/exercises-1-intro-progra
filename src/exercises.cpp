@@ -87,13 +87,13 @@ void exercise_5(char character) {
   // TODO: YOUR CODE HERE
 
   if (65 <= character && character < 96) {
-    cout << "upper-case alphabet";
+    cout << "upper-case alphabet" << endl;
   
   } else if (97 <= character && character <= 122) {
-    cout << "lower-case alphabet";
+    cout << "lower-case alphabet" << endl;
 
   } else if (32 <= character && character <= 64) {
-    cout << "not an alpahbet";
+    cout << "not an alpahbet" << endl;
   }
 
 }
