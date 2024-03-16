@@ -20,7 +20,7 @@ void exercise_1(string s1, string s2, string s3) {
 void exercise_2(double A, double B, double C) {
   // TODO: YOUR CODE HERE
 
-  double ecu_cuadra = B * B - 4 * A * C;
+  /*double ecu_cuadra = B * B - 4 * A * C;
 
   if (A == 0); {
     double operacion_1 = -C / B;
@@ -38,7 +38,7 @@ void exercise_2(double A, double B, double C) {
   } else if (datos_raiz < 0); {
     cout << " " << endl;
 
-  } else;
+  } else;*/
 }
 
 void exercise_3(int a, int b) {
