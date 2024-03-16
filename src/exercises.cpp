@@ -159,8 +159,10 @@ void exercise_8(long int seconds) {
 
   if (seconds > 0) {
     hour = seconds / 3600;
-    minutos = seconds / 60;
-    segundos_nuevos = hour / 3600;
+    segundos_nuevos = segundos % 3600;
+    minutos = segundos_nuevos / 60;
+    segundos = segundos_nuevos % 60;
+
     cout << hour << ":" << minutos << ":" << segundos_nuevos << endl;
 
   } else if (seconds < 0) {
