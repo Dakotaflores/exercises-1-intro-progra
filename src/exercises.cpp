@@ -186,13 +186,13 @@ void exercise_8(long int seconds) {
 string exercise_9(string s1, string s2, string s3, string s4, string s5) {
   // TODO: YOUR CODE HERE
 
- /*   cout << "Primer caracter de cada palabra: " << string s1[0] << " " << string s2[0] << " " << string s3[0] << " " << string s4[0] << " " << string s5[0] << endl;
+ 
     // Verificar si el primer caracter de la primera palabra y el primer caracter de la última palabra son iguales
     if (string s1[0] == string s5[0]) {
-        cout << "Hemos encontrado algo!" << endl;
+     cout << "Primer caracter de cada palabra: " << string s1[0] << " " << sting s2[0] << " " << string s3[0] << " " << string s4[0] << " " << string s5[0] << endl << "Hemos encontrado algo!" << endl;
     } else {
-        cout << "Aun sin suerte" << endl;
-    }*/
+      cout << "Primer caracter de cada palabra: " << string s1[0] << " " << sting s2[0] << " " << string s3[0] << " " << string s4[0] << " " << string s5[0] << endl << "Aun sin suerte" << endl;
+    }
 
 }
 
