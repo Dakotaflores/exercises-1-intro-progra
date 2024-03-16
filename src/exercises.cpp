@@ -138,8 +138,8 @@ void exercise_7(double r) {
   // TODO: YOUR CODE HERE
 
   double pi = 3.14;
-  double result;
   double directions = 4;
+  double result;
 
     if(r > 0 ) {
       result = pi * r * r * directions;
