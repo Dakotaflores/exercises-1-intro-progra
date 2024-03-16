@@ -154,7 +154,7 @@ void exercise_7(double r) {
 void exercise_8(long int seconds) {
   // TODO: YOUR CODE HERE
 
-  long int hour;
+  /*long int hour;
   long int minutes;
   long int new_seconds;
 
@@ -173,7 +173,7 @@ void exercise_8(long int seconds) {
     }
     else if (seconds <= 3600)
     {
-        cout << "Error: Input seconds cannot be negative." << endl;
+        cout << "Error: Input seconds cannot be negative. \n";
      // Exiting the program with an error code
     }
 
@@ -181,14 +181,11 @@ void exercise_8(long int seconds) {
     cout << ((hour < 10) ? "0" : "") << hour << ":"
          << ((minutes < 10) ? "0" : "") << minutes << ":"
          << ((seconds < 10) ? "0" : "") << seconds << endl; 
-
+*/
 }
 
 string exercise_9(string s1, string s2, string s3, string s4, string s5) {
   // TODO: YOUR CODE HERE
-
-    // Imprimir el primer caracter de cada palabra
-    cout << "Primer caracter de cada palabra: " << string s1[0] << " " << string s2[0] << " " << string s3[0] << " " << strings 4[0] << " " << string s5[0] << endl;
 
     // Verificar si el primer caracter de la primera palabra y el primer caracter de la última palabra son iguales
     if (string s1[0] == string s5[0]) {
@@ -206,12 +203,12 @@ int exercise_10(int a, int b) {
 string exercise_11(int number) {
   // TODO: YOUR CODE HERE
 
-  if (number != 11235813) {
+/* if (number != 11235813) {
     cout << "Esto no es de Fibonacci " << endl;
 
   } else if (number == 11235813) {
     cout << "Se encontro a Fibonacci " << endl;
-  }
+  }*/
 
 }
 
