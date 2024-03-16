@@ -300,7 +300,7 @@ void exercise_15(int a, int b, int c) {
 void exercise_16(int debut, int fin) {
   // TODO: YOUR CODE HERE
 
-int total_hours;
+/*int total_hours;
 int total_cost;
 
 // Verificar si las horas están en el rango válido
@@ -336,5 +336,5 @@ for (int hour = debut; hour < fin; ++hour) {
     cout << total_hours - 7 << " hora(s) con el tarifario de 2 boliviano(s)" << endl;
   }
     cout << "El monto total a pagar es de " << total_cost << " boliviano(s)." << endl;
-
+ */
 }
