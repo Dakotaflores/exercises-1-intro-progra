@@ -93,7 +93,7 @@ void exercise_5(char character) {
     cout << "lower-case alphabet" << endl;
 
   } else if (32 <= character && character <= 64) {
-    cout << "not an alpahbet" << endl;
+    cout << "not an alphabet" << endl;
   }
 
 }
