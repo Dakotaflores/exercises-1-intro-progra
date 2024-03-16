@@ -303,14 +303,8 @@ void exercise_16(int debut, int fin) {
 int total_hours = 0;
 int total_cost = 0;
 
-// Leer las horas de inicio y fin del alquiler
-cout << "Ingrese la hora de inicio del alquiler: ";
-cin >> debut;
-cout << "Ingrese la hora de fin del alquiler: ";
-cin >> fin;
-
 // Verificar si las horas están en el rango válido
-if (start_hour < 0 || start_hour > 24 || end_hour < 0 || end_hour > 24); {
+if (start_hour < 0 || start_hour > 24 || end_hour < 0 || end_hour > 24) {
     cout << "Las horas deben estar entre 0 y 24!" << endl;
 }
 
