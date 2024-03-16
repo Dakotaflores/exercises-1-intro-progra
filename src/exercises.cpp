@@ -165,6 +165,17 @@ void exercise_8(long int seconds) {
 
     cout << "0" << hour << ":" << "0" << minutes << ":" << seconds << endl;
 
+
+// outpur 00:01:00
+
+  } else if (seconds <= 3600) {
+    hour = seconds / 3600;
+    new_seconds = seconds % 3600;
+    minutes = new_seconds / 60;
+    seconds = new_seconds % 60;
+
+    cout << "0" << hour << ":"  << "0" <<  minutes << ":" << "0" << seconds << endl;
+
   } else if (seconds > 0 && hour >= 10 && seconds < 10 && minutes < 10) {
     hour = seconds / 3600;
     new_seconds = seconds % 3600;
