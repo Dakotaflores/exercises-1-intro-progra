@@ -138,11 +138,11 @@ void exercise_7(double r) {
   // TODO: YOUR CODE HERE
 
   double pi = 3.14;
-  double directions = 4; 
   double result;
+  double directions = 4;
 
     if(r > 0 ) {
-      result = directions * pi * radio * r;
+      result = pi * r * r * directions;
       cout << result << endl;
     
     } else if (r == 0) {
