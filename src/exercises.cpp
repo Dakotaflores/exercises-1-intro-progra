@@ -287,6 +287,7 @@ string exercise_14(int number_of_docs) {
 
 void exercise_15(int a, int b, int c) {
   // TODO: YOUR CODE HERE
+  
   int temp = a;
   a = b;
   b = c;
@@ -298,6 +299,5 @@ void exercise_15(int a, int b, int c) {
 
 void exercise_16(int debut, int fin) {
   // TODO: YOUR CODE HERE
-
 
 }
