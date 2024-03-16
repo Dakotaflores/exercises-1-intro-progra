@@ -86,15 +86,13 @@ void exercise_4(double n, double a, double b, double x, double y) {
 void exercise_5(char character) {
   // TODO: YOUR CODE HERE
 
- char character = ASCII;
-
-  if (65 <= ASCII && ASCII < 96) {
+  if (65 <= character && character < 96) {
     cout << "upper-case alphabet";
   
-  } else if (97 <= ASCII && ASCII <= 122) {
+  } else if (97 <= character && character <= 122) {
     cout << "lower-case alphabet";
 
-  } else if (32 <+ ASCII && ASCII <= 64) {
+  } else if (32 <= character && character <= 64) {
     cout << "not an alpahbet";
   }
 
