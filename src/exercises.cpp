@@ -21,24 +21,24 @@ void exercise_2(double A, double B, double C) {
   // TODO: YOUR CODE HERE
 
   double D = B * B - 4 * A * C ;
-    if (D > 0 && A != 0);
+    if (D > 0 && A != 0)
     {
          double d_sqrt = sqrt (D);
          double x1 = (-B + d_sqrt)  / (2*A);
          double x2 = (-B - d_sqrt) /  (2*A); 
          cout<<x1<<" "<<x2<<endl;
     }
-    else if (D==0 && A != 0);
+    else if (D==0 && A != 0)
     {
     double d_sqrt = sqrt (D);
     double x1 = (-B + d_sqrt) / (2*A);
     cout<<x1<<endl;
     }
-    else if(A==0 && B!=0);
+    else if(A==0 && B!=0)
     {
           cout<< (-1*(C))/B <<endl; 
     }
-    else if (A!=0 && B==0 );
+    else if (A!=0 && B==0)
     {
         cout<< sqrt (C/A) << endl; 
     }
