@@ -244,8 +244,8 @@ void exercise_12(string color1, int numb1,
   bool match3 = (color3 == color4 || color4 == "?") && (numb3 == numb4 || numb4 == -1);
 
   if (match1) cout << "1" << endl;
-  if (match1) cout << "2" << endl;
-  if (match1) cout << "3" << endl;
+  if (match2) cout << "2" << endl;
+  if (match3) cout << "3" << endl;
 
 }
 
