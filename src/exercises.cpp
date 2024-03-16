@@ -219,9 +219,6 @@ int exercise_10(int a, int b) {
     // Calcular el producto de la suma por el número de dígitos
     int result = sum * numDigits;
 
-    // Imprimir el resultado
-    cout << result << endl;
-
 }
 
 string exercise_11(int number) {
