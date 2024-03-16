@@ -50,12 +50,13 @@ double D = B * B - 4 * A * C ;
 void exercise_3(int a, int b) {
   // TODO: YOUR CODE HERE
 
-  if (b == 0) {
-    cout << "Impossible" << endl;
+    if (b == 0) {
+      cout << "Impossible" << endl;
 
-  } else (a > 0 && b > 0) {
-    cout << a / b << endl; 
-  }
+    } else (a > 0 && b > 0) {
+    int resultado = a / b
+    cout << resultado << endl; 
+    }
 }
 
 void exercise_4(double n, double a, double b, double x, double y) {
