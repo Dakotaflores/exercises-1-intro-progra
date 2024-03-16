@@ -205,7 +205,7 @@ void exercise_8(long int seconds) {
   } else if (seconds = 3600) {
     cout << "00:01:00" << endl;
 
-  } else if (seconds < 0) {
+  } else if (seconds < 3600) {
     cout << "Error: Input seconds cannot be negative." << endl;
 
   } else;
