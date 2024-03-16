@@ -40,7 +40,7 @@ void exercise_2(double A, double B, double C) {
     }
     else if (A!=0 && B==0)
     {
-        cout<< sqrt (C/A) << endl; 
+        cout<< " " << endl; 
     }
     else
     {
