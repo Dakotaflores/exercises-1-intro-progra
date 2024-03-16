@@ -188,12 +188,12 @@ string exercise_9(string s1, string s2, string s3, string s4, string s5) {
 
  
     // Verificar si el primer caracter de la primera palabra y el primer caracter de la última palabra son iguales
-    if (string s1[0] == string s5[0]) {
+    /*if (string s1[0] == string s5[0]) {
      cout << string s1[0] << sting s2[0] << string s3[0] << string s4[0] << string s5[0] << endl << "Hemos encontrado algo!" << endl;
     } else {
       cout << string s1[0] << sting s2[0] << string s3[0] << string s4[0] << string s5[0] << endl << "Aun sin suerte" << endl;
-    }
-
+    }*/
+    
 }
 
 int exercise_10(int a, int b) {
@@ -202,7 +202,7 @@ int exercise_10(int a, int b) {
     // Verificar si alguno de los números es negativo
     if (a < 0 || b < 0) {
         cout << 0 << endl;
-        return 0;
+
     }
 
     // Calcular la suma de los dos enteros
