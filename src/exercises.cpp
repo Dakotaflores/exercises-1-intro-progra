@@ -278,15 +278,22 @@ string exercise_14(int number_of_docs) {
 
   } else if (number_of_docs == 1) {
     cout << "Se encontro un documento" << endl;
-    
+
   } else {
-    cout << number_of_docs << " documentos encontrados" << endl;
+    cout << number_of_docs << "documentos encontrados" << endl;
   }
 
 }
 
 void exercise_15(int a, int b, int c) {
   // TODO: YOUR CODE HERE
+  int temp = a;
+  a = b;
+  b = c;
+  c = temp;
+
+// Mensaje después de la permutación
+  cout << "Los valores después de la permutación son: a = " << a << " b = " << b << " c = " << c << endl;
 }
 
 void exercise_16(int debut, int fin) {
