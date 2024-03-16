@@ -198,6 +198,30 @@ string exercise_9(string s1, string s2, string s3, string s4, string s5) {
 
 int exercise_10(int a, int b) {
   // TODO: YOUR CODE HERE
+
+    // Verificar si alguno de los números es negativo
+    if (a < 0 || b < 0) {
+        cout << 0 << endl;
+        return 0;
+    }
+
+    // Calcular la suma de los dos enteros
+    int sum = a + b;
+
+    // Calcular el número de dígitos en la suma
+    int numDigits = 0;
+    int tempSum = sum;
+    while (tempSum != 0) {
+        tempSum /= 10;
+        numDigits++;
+    }
+
+    // Calcular el producto de la suma por el número de dígitos
+    int result = sum * numDigits;
+
+    // Imprimir el resultado
+    cout << result << endl;
+
 }
 
 string exercise_11(int number) {
