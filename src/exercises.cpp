@@ -18,8 +18,7 @@ void exercise_1(string s1, string s2, string s3) {
 
 void exercise_2(double A, double B, double C) {
   // TODO: YOUR CODE HERE
-/*
-  double D = B * B - 4 * A * C ;
+/*double D = B * B - 4 * A * C ;
     if (D > 0 && A != 0)
     {
          double d_sqrt = sqrt (D);
@@ -69,7 +68,7 @@ void exercise_5(char character) {
 void exercise_6(int number) {
   // TODO: YOUR CODE HERE 
     
-  if (1 <= number && number <=7) {
+/*  if (1 <= number && number <=7) {
        
     switch(number) {
     
@@ -97,7 +96,7 @@ void exercise_6(int number) {
     }
  } else {
    cout <<"Invalid input\n";
- }
+ }*/
 }
 
 void exercise_7(double r) {
