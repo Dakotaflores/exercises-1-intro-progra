@@ -99,7 +99,7 @@ void exercise_6(int number) {
 void exercise_7(double r) {
   // TODO: YOUR CODE HERE
 
-const float pi = 3.14;
+/*const float pi = 3.14;
 const int directions = 4; 
 
     if(radio > 0 ) {
@@ -109,7 +109,7 @@ const int directions = 4;
     }else {
       cout << " Error: Radius cannot be negative";
     }
-}   
+}*/  
 
 void exercise_8(long int seconds) {
   // TODO: YOUR CODE HERE
