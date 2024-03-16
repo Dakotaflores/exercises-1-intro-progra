@@ -165,9 +165,16 @@ void exercise_8(long int seconds) {
 
     cout << hour << ":" << minutes << ":" << seconds << endl;
 
-  //seconds < 10
 
-  } if (seconds > 0 && hour >= 10 && seconds < 10 && minutes < 10) {
+  } else if (seconds > 0 && hour < 10 && seconds >= 10 && minutes < 10) {
+    hour = seconds / 3600;
+    new_seconds = seconds % 3600;
+    minutes = new_seconds / 60;
+    seconds = new_seconds % 60;
+
+    cout << "0" << hour << ":" << "0" << minutes << ":" << seconds << endl;
+
+  } else if (seconds > 0 && hour >= 10 && seconds < 10 && minutes < 10) {
     hour = seconds / 3600;
     new_seconds = seconds % 3600;
     minutes = new_seconds / 60;
@@ -175,7 +182,7 @@ void exercise_8(long int seconds) {
 
     cout << hour << ":" << "0" << minutes << ":" << "0" << seconds << endl;
 
-  } if (seconds > 0 && hour >= 10 && seconds >= 10 && minutes < 10) {
+  } else if (seconds > 0 && hour >= 10 && seconds >= 10 && minutes < 10) {
     hour = seconds / 3600;
     new_seconds = seconds % 3600;
     minutes = new_seconds / 60;
@@ -183,7 +190,7 @@ void exercise_8(long int seconds) {
 
     cout << hour << ":" << minutes << ":" << "0" << seconds << endl;
 
-  } if (seconds > 0 && hour < 10 && seconds < 10 && minutes < 10) {
+  } else if (seconds > 0 && hour < 10 && seconds < 10 && minutes < 10) {
     hour = seconds / 3600;
     new_seconds = seconds % 3600;
     minutes = new_seconds / 60;
@@ -191,7 +198,7 @@ void exercise_8(long int seconds) {
 
     cout << "0" << hour << ":" << "0" << minutes << ":" << "0" << seconds << endl;
 
-  }  else if (seconds < 0) {
+  } else if (seconds < 0) {
     cout << "Error: Input seconds cannot be negative." << endl;
 
   } else;
