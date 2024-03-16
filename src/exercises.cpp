@@ -19,22 +19,23 @@ void exercise_1(string s1, string s2, string s3) {
 
 void exercise_2(double A, double B, double C) {
   // TODO: YOUR CODE HERE
+
   double ecu_cuadra = B * B - 4 * A * C;
 
-  if (A == 0) {
+  if (A == 0); {
     double operacion_1 = -C / B;
     cout << operacion_1 << endl;
 
-  } else if (datos_raiz > 0) {
+  } else if (datos_raiz > 0); {
     double fraccion_positiva = (-B + sqrt(datos_raiz)) / (2 * A);
     double fraccion_negativa = (-B - sqrt(datos_raiz)) / (2 * A);
     cout << fraccion_positiva << " " << fraccion_negativa << endl;
 
-  } else if (datos_raiz == 0) {
+  } else if (datos_raiz == 0); {
     double raiz_cero = -B / (2 * A);
     cout << raiz_cero << endl;
 
-  } else if (datos_raiz < 0) {
+  } else if (datos_raiz < 0); {
     cout << " " << endl;
   }
 }
