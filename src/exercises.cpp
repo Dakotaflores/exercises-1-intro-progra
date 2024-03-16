@@ -20,29 +20,37 @@ void exercise_1(string s1, string s2, string s3) {
 void exercise_2(double A, double B, double C) {
   // TODO: YOUR CODE HERE
 
-  /*double ecu_cuadra = B * B - 4 * A * C;
-
-  if (A == 0); {
-    double operacion_1 = -C / B;
-    cout << operacion_1 << endl;
-
-  } else if (datos_raiz > 0); {
-    double fraccion_positiva = (-B + sqrt(datos_raiz)) / (2 * A);
-    double fraccion_negativa = (-B - sqrt(datos_raiz)) / (2 * A);
-    cout << fraccion_positiva << " " << fraccion_negativa << endl;
-
-  } else if (datos_raiz == 0); {
-    double raiz_cero = -B / (2 * A);
-    cout << raiz_cero << endl;
-
-  } else if (datos_raiz < 0); {
-    cout << " " << endl;
-
-  } else;*/
+  double D = B * B - 4 * A * C ;
+    if (D > 0 && A != 0);
+    {
+         double d_sqrt = sqrt (D);
+         double x1 = (-B + d_sqrt)  / (2*A);
+         double x2 = (-B - d_sqrt) /  (2*A); 
+         cout<<x1<<" "<<x2<<endl;
+    }
+    else if (D==0 && A != 0);
+    {
+    double d_sqrt = sqrt (D);
+    double x1 = (-B + d_sqrt) / (2*A);
+    cout<<x1<<endl;
+    }
+    else if(A==0 && B!=0);
+    {
+          cout<< (-1*(C))/B <<endl; 
+    }
+    else if (A!=0 && B==0 );
+    {
+        cout<< sqrt (C/A) << endl; 
+    }
+    else
+    {
+          cout<<"";
+    }
 }
 
 void exercise_3(int a, int b) {
   // TODO: YOUR CODE HERE
+
 }
 
 void exercise_4(double n, double a, double b, double x, double y) {
