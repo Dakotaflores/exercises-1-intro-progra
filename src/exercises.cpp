@@ -153,6 +153,7 @@ void exercise_7(double r) {
 
 void exercise_8(long int seconds) {
   // TODO: YOUR CODE HERE
+
   long int hour;
   long int minutes;
   long int new_seconds;
@@ -170,9 +171,9 @@ void exercise_8(long int seconds) {
         minutes = new_seconds / 60;
         seconds = new_seconds % 60;
     }
-    else if 
+    else
     {
-        cout << "Error: Input seconds cannot be negative. " << endl;
+        cout << "Error: Input seconds cannot be negative. /n";
        // Exiting the program with an error code
     }
 
@@ -202,7 +203,6 @@ string exercise_11(int number) {
   } else if (number == 11235813) {
     cout << "Se encontro a Fibonacci " << endl;
   }
-   return 0;
 }
 
 void exercise_12(string color1, int numb1,
