@@ -137,16 +137,19 @@ if (1 <= number && number <=7) {
 void exercise_7(double r) {
   // TODO: YOUR CODE HERE
 
-/*const float pi = 3.14;
-const int directions = 4; 
+  double pi = 3.14;
+  double directions = 4; 
 
-    if(radio > 0 ) {
-      float result = directions * pi * radio * radio;
-      cout << result;
+    if(r> 0 ) {
+      result = directions * pi * radio * r;
+      cout << result << endl;
     
+    } else if (r == 0) {
+      cout << r << endl;
+  
     } else {
-      cout << " Error: Radius cannot be negative";
-    }*/
+      cout << "Error: Radius cannot be negative"
+    }
 }  
 
 void exercise_8(long int seconds) {
