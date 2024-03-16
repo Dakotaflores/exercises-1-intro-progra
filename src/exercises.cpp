@@ -252,7 +252,7 @@ void exercise_12(string color1, int numb1,
 string exercise_13(int age, int years_of_experience) {
   // TODO: YOUR CODE HERE
 
-  if (age < 18); {
+  if (age < 18) {
     cout << "El candidato no cumple con la edad mínima requerida." << endl;
 
   } else if (years_of_experience >= 5) {
@@ -261,7 +261,7 @@ string exercise_13(int age, int years_of_experience) {
   } else if (years_of_experience >= 3) {
     title = "Director de proyecto";
 
-  } else; {
+  } else {
     title = "Coordinador de proyecto";
 }
 
@@ -272,6 +272,14 @@ cout << "El título del puesto para el que es elegible el candidato es: " << tit
 
 string exercise_14(int number_of_docs) {
   // TODO: YOUR CODE HERE
+
+  if (num_documents == 0) {
+    cout << "No se encontraron documentos" << endl;
+  } else if (num_documents == 1) {
+    cout << "Se encontro un documento" << endl;
+  } else {
+    cout << num_documents << " documentos encontrados" << endl;
+}
   return "";
 }
 
