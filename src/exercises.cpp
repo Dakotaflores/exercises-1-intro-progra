@@ -186,14 +186,16 @@ void exercise_8(long int seconds) {
 string exercise_9(string s1, string s2, string s3, string s4, string s5) {
   // TODO: YOUR CODE HERE
 
-  
-  if(s1[0] == s5[0]) {
-    cout << s1[0] <<  s2[0] << s3[0] << s4[0] << s5[0] << endl;
+  cout << s1[0] <<  s2[0] << s3[0] << s4[0] << s5[0] << endl;
+
+  char First_char_first_word = s1[0];
+  char First_char_last_word = s5[0]
+
+  if( First_char_first_word == First_char_last_word ) {
     cout << "Hemos encontrado algo!" << endl;
   }
   else {
-    //cout << s1[0] <<  s2[0] << s3[0] << s4[0] << s5[0] << endl;
-    //cout << "Aun sin suerte" << endl;
+    cout << "Aun sin suerte" << endl;
   }
 
 }
