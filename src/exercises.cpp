@@ -186,20 +186,15 @@ void exercise_8(long int seconds) {
 string exercise_9(string s1, string s2, string s3, string s4, string s5) {
   // TODO: YOUR CODE HERE
   //getline(cin, s1, s2, s3, s4, s5);
+  cin(s1, s2, s3, s4, s5);
 
-  cout << s1[0], s2[0], s3[0], s4[0], s5[0] << endl;
+  cout << s1[0] <<  s2[0] << s3[0] << s4[0] << s5[0] << endl;
   
-  if(s1[0] != s2[0]) {
-    cout << "Aun sin suerte" << endl;
+  if(s1[0] == s5[0]) {
+    cout << "Hemos encontrado algo!" << endl;
   }
-  else if(s1[0] != s3[0]) {
+  else {
     cout << "Aun sin suerte" << endl;
-  }
-  else if(s1[0] != s4[0]) {
-    cout << "Aun sin suerte" << endl;
-  }
-  else if(s1[0] == s5[0]) {
-    cout << "Hemos encontrado algo!"
   }
 
 }
