@@ -168,7 +168,7 @@ void exercise_8(long int seconds) {
       cout << ((hour < 10) ? "0" : "") << hour << ":" << ((minutes < 10 ) ? "0" : "") << minutes << ":" << ((new_seconds < 10) ? "0" : "") << new_seconds << endl;
     }
     else {
-      cout << "Error: Inputs seconds cannot be negative. " << endl;
+      cout << "Error: Inputs seconds cannot be negative." << endl;
     }
     
 
@@ -192,6 +192,7 @@ string exercise_9(string s1, string s2, string s3, string s4, string s5) {
     cout << s1[0] << s2[0] << s3[0] << s4[0] << s5[0] << endl;
     cout << "Aun sin suerte" << endl;
   }
+  return"";
 
 }
 
