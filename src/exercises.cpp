@@ -255,23 +255,23 @@ string exercise_13(int age, int years_of_experience) {
   // TODO: YOUR CODE HERE
 
   if (age < 18) {
-    cout << "El candidato no cumple con la edad mínima requerida." << endl;
+    cout << "Not eligible" << endl;
 
   } else if (years_of_experience >= 5) {
-    title1 = "Director de proyecto senior";
+     title = "Project manager";
 
   } else if (years_of_experience >= 3) {
-    title2= "Director de proyecto";
+     title= "Senior project manager";
 
   } else {
-    title3= "Coordinador de proyecto";
+    title= "Project coordinator";
   }
 
   //Imprimir el título del puesto para el que es elegible el candidato
   
   cout << "El título del puesto para el que es elegible el candidato es: " << title << endl;
 
-  return 0;
+  return "";
 }
 
 string exercise_14(int number_of_docs) {
