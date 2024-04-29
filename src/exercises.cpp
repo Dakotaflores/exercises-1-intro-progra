@@ -259,10 +259,10 @@ string exercise_13(int age, int years_of_experience) {
     title = "Not eligible";
 
   } else if (years_of_experience >= 5) {
-     title = "Project manager";
+    title = "Senior project manager";
 
   } else if (years_of_experience >= 3) {
-     title= "Senior project manager";
+    title = "Project manager";
 
   } else {
     title= "Project coordinator";
