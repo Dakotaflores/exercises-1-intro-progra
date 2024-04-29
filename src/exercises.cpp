@@ -274,7 +274,7 @@ return title;
 string exercise_14(int number_of_docs) {
   // TODO: YOUR CODE HERE
    string result;
-  if (number_of_docs == 0) {
+  if (number_of_docs <= 0) {
     result = "No se encontraron documentos";
 
   } else if (number_of_docs == 1) {
