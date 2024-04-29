@@ -219,7 +219,7 @@ int exercise_10(int a, int b) {
     int result = sum * numDigits;
     cout << result << endl;
 
-  return 0;
+  return result;
 }
 
 string exercise_11(int number) {
