@@ -155,32 +155,27 @@ void exercise_8(long int seconds) {
   // TODO: YOUR CODE HERE
 
   long int hour;
+  long int x_hour;
   long int minutes;
   long int new_seconds;
 
-   if (seconds >= 0 && seconds < 3600)
-    {
-        hour = 0;
-        minutes = seconds / 60;
-        seconds = seconds % 60;
-    }
-    else if (seconds >= 3600)
+  if (seconds >= 0)
     {
         hour = seconds / 3600;
-        new_seconds = seconds % 3600;
-        minutes = new_seconds / 60;
-        seconds = new_seconds % 60;
+        x_hour = seconds % 3600;
+        minutes = x_hour / 60;
+        new_seconds = x_hour % 60;
+      cout << ((hour < 10) ? "0" : "") << hour << ":" << ((minutes < 10 ) ? "0" : "") << minutes << ":" << ((new_seconds < 10) ? "0" : "") << new_seconds << endl;
     }
-    else if (seconds <= 3600)
-    {
-        cout << "Error: Input seconds cannot be negative. \n";
-     // Exiting the program with an error code
+    else {
+      cout << "Error: Inputs seconds cannot be negative. " << endl;
     }
+    
 
     // Output formatting
-    cout << ((hour < 10) ? "0" : "") << hour << ":"
-         << ((minutes < 10) ? "0" : "") << minutes << ":"
-         << ((seconds < 10) ? "0" : "") << seconds << endl; 
+    //cout << ((hour < 10) ? "0" : "") << hour << ":"
+         //<< ((minutes < 10) ? "0" : "") << minutes << ":"
+         //<< ((seconds < 10) ? "0" : "") << seconds << endl; 
 }
 
 string exercise_9(string s1, string s2, string s3, string s4, string s5) {
@@ -189,12 +184,12 @@ string exercise_9(string s1, string s2, string s3, string s4, string s5) {
   //string First_char_first_word = s1[0];
   //string First_char_last_word = s5[0]
 
-  if( s1[0] == s5[0] ) {
+  if(s1[0] == s5[0]) {
     cout << s1[0] <<  s2[0] << s3[0] << s4[0] << s5[0] << endl;
     cout << "Hemos encontrado algo!" << endl;
   }
   else(){
-    //cout << s1[0] << s2[0] << s3[0] << s4[0] << s5[0] << endl;
+    cout << s1[0] << s2[0] << s3[0] << s4[0] << s5[0] << endl;
     //cout << "Aun sin suerte" << endl;
   }
 
