@@ -271,7 +271,7 @@ string exercise_13(int age, int years_of_experience) {
   
   cout << "El título del puesto para el que es elegible el candidato es: " << title << endl;
 
-  return "title";
+  //return ;
 }
 
 string exercise_14(int number_of_docs) {
