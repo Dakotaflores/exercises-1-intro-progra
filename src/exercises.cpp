@@ -253,6 +253,7 @@ void exercise_12(string color1, int numb1,
 
 string exercise_13(int age, int years_of_experience) {
   // TODO: YOUR CODE HERE
+  string title;
 
   if (age < 18) {
     cout << "Not eligible" << endl;
@@ -270,8 +271,7 @@ string exercise_13(int age, int years_of_experience) {
   //Imprimir el título del puesto para el que es elegible el candidato
   
   cout << "El título del puesto para el que es elegible el candidato es: " << title << endl;
-
-  return title;
+return title;
 }
 
 string exercise_14(int number_of_docs) {
