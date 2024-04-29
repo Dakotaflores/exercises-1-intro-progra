@@ -281,7 +281,7 @@ string exercise_14(int number_of_docs) {
     result = "Se encontro un documento";
 
   } else {
-    result =  to_string(number_of_docs) + "documentos encontrados"; //to_string para pasar de numero a string
+    result =  to_string(number_of_docs) + " documentos encontrados"; //to_string para pasar de numero a string
   }
 return result;
 }
