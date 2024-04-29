@@ -181,9 +181,6 @@ void exercise_8(long int seconds) {
 string exercise_9(string s1, string s2, string s3, string s4, string s5) {
   // TODO: YOUR CODE HERE
 
-  //string First_char_first_word = s1[0];
-  //string First_char_last_word = s5[0]
-
   if(s1[0] == s5[0]) {
     cout << s1[0] <<  s2[0] << s3[0] << s4[0] << s5[0] << endl;
     return "Hemos encontrado algo!";
@@ -284,7 +281,7 @@ string exercise_14(int number_of_docs) {
     result = "Se encontro un documento";
 
   } else {
-    result = number_of_docs, "documentos encontrados";
+    result = int(number_of_docs), "documentos encontrados";
   }
 return result;
 }
