@@ -254,7 +254,7 @@ void exercise_12(string color1, int numb1,
 string exercise_13(int age, int years_of_experience) {
   // TODO: YOUR CODE HERE
 
-  if (age < 18) {
+  /*if (age < 18) {
     cout << "El candidato no cumple con la edad mínima requerida." << endl;
 
   } else if (years_of_experience >= 5) {
@@ -271,7 +271,7 @@ string exercise_13(int age, int years_of_experience) {
   
   cout << "El título del puesto para el que es elegible el candidato es: " << title << endl;
 
-  //return ;
+  //return ;*/
 }
 
 string exercise_14(int number_of_docs) {
