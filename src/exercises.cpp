@@ -267,10 +267,10 @@ string exercise_13(int age, int years_of_experience) {
     title = "Coordinador de proyecto";
   }
 
-// Imprimir el título del puesto para el que es elegible el candidato
+//Imprimir el título del puesto para el que es elegible el candidato
   
   cout << "El título del puesto para el que es elegible el candidato es: " << title << endl;
-  
+
 return title;
 }
 
