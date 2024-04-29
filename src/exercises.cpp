@@ -256,7 +256,7 @@ string exercise_13(int age, int years_of_experience) {
   string title;
 
   if (age < 18) {
-    cout << "Not eligible" << endl;
+    title = "Not eligible";
 
   } else if (years_of_experience >= 5) {
      title = "Project manager";
