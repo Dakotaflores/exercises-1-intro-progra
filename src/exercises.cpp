@@ -276,17 +276,17 @@ return title;
 
 string exercise_14(int number_of_docs) {
   // TODO: YOUR CODE HERE
-
+   string result;
   if (number_of_docs == 0) {
-    cout << "No se encontraron documentos" << endl;
+    result = "No se encontraron documentos";
 
   } else if (number_of_docs == 1) {
-    cout << "Se encontro un documento" << endl;
+    result = "Se encontro un documento";
 
   } else {
-    cout << number_of_docs << "documentos encontrados" << endl;
+    result = "documentos encontrados";
   }
-
+return result;
 }
 
 void exercise_15(int a, int b, int c) {
