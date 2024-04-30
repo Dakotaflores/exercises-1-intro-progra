@@ -295,7 +295,7 @@ void exercise_15(int a, int b, int c) {
   b = c;
   c = temp;
 
-  // Mensaje después de la permutación
+// Mensaje después de la permutación
   cout << "Permutamos: a => b, b => c, c => a \n" << "Los valores después de la permutación son: a = " << a << " b = " << b << " c = " << c << endl;
 }
 
