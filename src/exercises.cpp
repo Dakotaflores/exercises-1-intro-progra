@@ -289,14 +289,14 @@ return result;
 void exercise_15(int a, int b, int c) {
   // TODO: YOUR CODE HERE
   cout << "Los valores son: a = " << a << " b =" << b << " c =" << c << endl;
+
   int temp = a;
   a = b;
   b = c;
   c = temp;
 
 // Mensaje después de la permutación
-  cout << "Permutamos: a => b, b => c, c => a" << endl;
-  cout << "Los valores después de la permutación son: a = " << a << " b = " << b << " c = " << c << endl;
+  cout << "Permutamos: a => b, b => c, c => a \n" << "Los valores después de la permutación son: a = " << a << " b = " << b << " c = " << c << endl;
 }
 
 void exercise_16(int debut, int fin) {
