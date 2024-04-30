@@ -291,8 +291,8 @@ void exercise_15(int a, int b, int c) {
   cout << "Los valores son: a = " << a << " b =" << b << " c =" << c << endl;
 
   int temp = b;
-  a = b;
-  b = c;
+  b = a;
+  a = c;
   c = temp;
 
 // Mensaje después de la permutación
