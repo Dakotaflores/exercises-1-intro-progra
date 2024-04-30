@@ -288,7 +288,7 @@ return result;
 
 void exercise_15(int a, int b, int c) {
   // TODO: YOUR CODE HERE
-  cout << "Los valores son: a = " << a << " b = " << b << " y c =" << c << endl;
+  cout << "Los valores son: a = " << a << " b = " << b << " y c = " << c << endl;
   cout << "Permutamos: a => b, b => c, c => a\n";
   //int but = a;
   int temp = b;
