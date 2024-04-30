@@ -35,15 +35,15 @@ double D = B * B - 4 * A * C ;
     }
     else if(A==0 && B!=0)
     {
-          cout<< (-1*(C))/B <<endl; 
+      cout<< (-1*(C))/B <<endl; 
     }
     else if (A!=0 && B==0 )
     {
-        cout<< sqrt (C/A) << endl; 
+      cout<< sqrt (C/A) << endl; 
     }
     else
     {
-          cout<<"";
+      cout<<"";
     }
 }
 
@@ -302,13 +302,13 @@ void exercise_15(int a, int b, int c) {
 
 void exercise_16(int debut, int fin) {
   // TODO: YOUR CODE HERE
-/*int total_hours;
-int total_cost;
+  /*int total_hours;
+  int total_cost;
 
 // Verificar si las horas están en el rango válido
-if (debut < 0 || debut > 24 || fin < 0 ||fin > 24) {
+  if (debut < 0 || debut > 24 || fin < 0 ||fin > 24) {
     cout << "Las horas deben estar entre 0 y 24!" << endl;
-}
+  }
 
 // Verificar si la hora de inicio es igual a la hora de fin
 if (debut == fin) {
@@ -339,4 +339,21 @@ for (int hour = debut; hour < fin; ++hour) {
   }
     cout << "El monto total a pagar es de " << total_cost << " boliviano(s)." << endl;
  */
+  if((debut < 0 || debut > 24 || fin < 0 || fin > 24)) {
+    cout << "Las horas deben estar entre 0 y 24!" << endl;
+    return;
+  } else if (debut == fin) {
+    cout << "Que extrano, no has alquilado tu bicicleta por mucho tiempo!" << endl;
+    return;
+  } else if (debut > fin) {
+    cout << "Que extrano, el inicio del alquiler es despues del final..." << endl;
+    return;
+  } 
+  int total = 0;
+  int costo_bajo = 1;
+  int costo_alto = 2;
+  int horas_bajo = 0;
+  int horas_alto = 0;
+
+  for 
 }
