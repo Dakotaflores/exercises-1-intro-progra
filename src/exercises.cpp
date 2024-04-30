@@ -289,7 +289,7 @@ return result;
 void exercise_15(int a, int b, int c) {
   // TODO: YOUR CODE HERE
   cout << "Los valores son: a = " << a << " b = " << b << " c =" << c << endl;
-  int but = a
+  int but = a;
   int temp = b;
   b = but;
   a = c;
