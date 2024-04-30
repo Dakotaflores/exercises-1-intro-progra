@@ -290,7 +290,7 @@ void exercise_15(int a, int b, int c) {
   // TODO: YOUR CODE HERE
   cout << "Los valores son: a = " << a << " b =" << b << " c =" << c << endl;
 
-  int temp = a;
+  int temp = b;
   a = b;
   b = c;
   c = temp;
