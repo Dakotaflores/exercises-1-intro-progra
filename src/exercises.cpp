@@ -302,44 +302,8 @@ void exercise_15(int a, int b, int c) {
 
 void exercise_16(int debut, int fin) {
   // TODO: YOUR CODE HERE
-  /*int total_hours;
-  int total_cost;
-
-// Verificar si las horas están en el rango válido
-  if (debut < 0 || debut > 24 || fin < 0 ||fin > 24) {
-    cout << "Las horas deben estar entre 0 y 24!" << endl;
-  }
-
-// Verificar si la hora de inicio es igual a la hora de fin
-if (debut == fin) {
-    cout << "Que extraño, no has alquilado tu bicicleta por mucho tiempo!" << endl;
-}
-
-// Verificar si la hora de inicio es menor que la hora de fin
-if (debut > fin) {
-    cout << "Que extraño, el inicio del alquiler es después del final..." << endl;
-
-// Calcular el costo del alquiler
-for (int hour = debut; hour < fin; ++hour) {
-    if ((hour >= 0 && hour < 7) || (hour >= 17 && hour < 24)) {
-        total_cost += 1;
-    } else {
-        total_cost += 2;
-    }
-    total_hours++;
-}
-
-// Mostrar el detalle del alquiler y el monto total a pagar
-    cout << "Has alquilado una bicicleta por" << endl;
-  if (total_hours > 0 && total_hours <= 7) {
-    cout << total_hours << " hora(s) con el tarifario de 1 boliviano(s)" << endl;
-  } else {
-    cout << "7 hora(s) con el tarifario de 1 boliviano(s)" << endl;
-    cout << total_hours - 7 << " hora(s) con el tarifario de 2 boliviano(s)" << endl;
-  }
-    cout << "El monto total a pagar es de " << total_cost << " boliviano(s)." << endl;
- */
-  if((debut < 0 || debut > 24 || fin < 0 || fin > 24)) {
+  
+if((debut < 0 || debut > 24 || fin < 0 || fin > 24)) {
     cout << "Las horas deben estar entre 0 y 24!" << endl;
     return;
   } else if (debut == fin) {
@@ -371,5 +335,5 @@ for (int hour = debut; hour < fin; ++hour) {
   if (horas_alto > 0) {
     cout << horas_alto << " horas(s) con el tarifario de " << costo_alto << " bolivianos(s)" << endl;
   }
-  cout << "El monto total a pagar es de " << total << "bolivianos(s)." << endl;
+cout << "El monto total a pagar es de " << total << "bolivianos(s)." << endl;
 }
