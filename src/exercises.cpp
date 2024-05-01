@@ -310,7 +310,7 @@ if((debut < 0 || debut > 24 || fin < 0 || fin > 24)) {
     cout << "Que extraño, no has alquilado tu bicicleta por mucho tiempo!" << endl;
     return;
   } else if (debut > fin) {
-    cout << "Que extraño, el inicio del alquiler es despues del final..." << endl;
+    cout << "Que extraño, el inicio del alquiler es después del final..." << endl;
     return;
   } 
   int total = 0;
