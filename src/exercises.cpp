@@ -330,10 +330,10 @@ if((debut < 0 || debut > 24 || fin < 0 || fin > 24)) {
   }
   cout << "Haz alquilado una bicicleta por" << endl;
   if (horas_bajo > 0) {
-    cout << horas_bajo << " horas(s) con el tarifario de " << costo_bajo << " bolivianos(s)" << endl;
+    cout << horas_bajo << " horas(s) con el tarifario de " << costo_bajo << " boliviano(s)" << endl;
   }
   if (horas_alto > 0) {
-    cout << horas_alto << " horas(s) con el tarifario de " << costo_alto << " bolivianos(s)" << endl;
+    cout << horas_alto << " horas(s) con el tarifario de " << costo_alto << " boliviano(s)" << endl;
   }
 cout << "El monto total a pagar es de " << total << " boliviano(s)." << endl;
 }
